@@ -29,6 +29,3 @@ vim.keymap.set("n", "<leader>wh", ":split<cr>", { desc = "[W]indow Split [H]oriz
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left in visual mode" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right in visual mode" })
 
--- Close window with Ctrl+w
-vim.keymap.set("n", "<C-w>", ":q<cr>", { desc = "Close current window" })
-
